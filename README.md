@@ -14,8 +14,6 @@ The ArSen-20 dataset statistics:
 ## Features
 The dataset has the following features:
 
-⚠️ Please note that due to the restrictions imposed by [Twitter's Developer Agreement and Policy on Content redistribution](https://developer.twitter.com/en/developer-terms/agreement-and-policy), the data that we make public available does not comprise direct tweet text data and user privacy data.
-
 | Field   |  Type  |  Description  |
 |:-----------:| :--------: |:----------------: |
 | tweet id     | string     | The unique identifier of the requested Tweet.     |
@@ -27,26 +25,22 @@ The dataset has the following features:
 |quote_count  | int    | The number of times this tweet has been quoted.    |
 | reply_count   | int     | The number of replies to this tweet.    |
 | retweet_count| int    | The number of retweets to this tweet.    |
-| tweet❌   | string     | The actual UTF-8 text of the Tweet.    |
+| tweet   | string     | The actual UTF-8 text of the Tweet.    |
 |user_verified  | boolean     | Indicates if this user is a verified Twitter User.     |
 |followers_count  | int     |The number of followers of the author.     |
 | following_count  | int     | The number of following of the author.    |
 | tweet_count  | int     | Total number of tweets by the author.    |
 | listed_count | int     |The number of public lists that this user is a member of.    |
-|name❌ | string     | The name of the user.    |
-| username❌   | string     | The Twitter screen name, handle, or alias.    |
+|name | string     | The name of the user.    |
+| username   | string     | The Twitter screen name, handle, or alias.    |
 | user_created_at| data     | The UTC datetime that the user account was created.     |
-| description❌  | string     | The text of this user’s profile description (bio).     |
+| description  | string     | The text of this user’s profile description (bio).     |
 
 ## DownLoad
 You can download the dataset from [here](https://github.com/123fangyang/ArSen-20/tree/main/data).
-+ ArSen-20_publish.csv - Contains all features except those marked with ❌ above.
++ ArSen-20_publish.csv - Contains all features.
 + ArSen-20_id_only.csv - Contains only tweets and their author's id.
 
-You can get the source code of our request for tweet data to the Twitter API from here.
-+ Twitter_API_Request.py - A Python script for accessing the Twitter API to collect data.
-+ Data_Processing.py - A Python script for converting tweets json data to csv format.
-+ Tweets_Preprocessing.py - A Python script for pre-processing tweets data.
 
 ## Citation
 If you use this dataset in your research, please cite the following paper:
