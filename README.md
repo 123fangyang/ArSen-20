@@ -39,7 +39,7 @@ The dataset has the following features:
 | description❌  | string     | The text of this user’s profile description (bio).     |
 
 ## DownLoad
-You can download the dataset from [here]((https://github.com/123fangyang/ArSen-20/tree/main/data).
+You can download the dataset from [here](https://github.com/123fangyang/ArSen-20/tree/main/data).
 
 ## Citation
 If you use this dataset in your research, please cite the following paper:
