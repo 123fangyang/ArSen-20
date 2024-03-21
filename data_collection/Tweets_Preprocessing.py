@@ -10,7 +10,6 @@ import pandas as pd
 import numpy as np
 import tqdm
 import re
-import arabic_reshaper
 from bidi.algorithm import get_display
 from nltk.stem.isri import ISRIStemmer
 import gensim
