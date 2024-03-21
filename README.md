@@ -40,6 +40,18 @@ The dataset has the following features:
 
 ## DownLoad
 You can download the dataset from [here](https://github.com/123fangyang/ArSen-20/tree/main/data).
++ ArSen-20_publish.csv - Contains all features except those marked with ❌ above.
++ ArSen-20_id_only.csv - Contains only tweets and their author's id.
+
+You can get the source code of our request for tweet data to the Twitter API from here.
++ Twitter_API_Request.py - A Python script for accessing the Twitter API to collect data.
++ Data_Processing.py - A Python script for converting tweets json data to csv format.
++ Tweets_Preprocessing.py - A Python script for pre-processing tweets data.
 
 ## Citation
 If you use this dataset in your research, please cite the following paper:
+
+## contact
+If you have any questions or comments about the dataset, please contact Yang Fang (20211209024@chnu.edu.cn).
+
+Potential cooperation in related fields is also welcome. :)
