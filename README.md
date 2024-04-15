@@ -44,6 +44,15 @@ You can download the dataset from [here](https://github.com/123fangyang/ArSen-20
 
 ## Citation
 If you use this dataset in your research, please cite the following paper:
+```bibtex
+@inproceedings{fang2024arsen,
+title={ArSen-20: A New Benchmark for Arabic Sentiment Detection},
+author={Yang Fang and Cheng Xu},
+booktitle={5th Workshop on African Natural Language Processing},
+year={2024},
+url={https://openreview.net/forum?id=GgsRUF5kJt}
+}
+```
 
 ## contact
 If you have any questions or comments about the dataset, please contact Yang Fang (20211209024@chnu.edu.cn).
